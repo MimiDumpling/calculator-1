@@ -3,13 +3,14 @@
 
 def add(num1, num2):
     """Return the sum of the two input integers."""
-    sum = int(num1 + num2)
-    return sum
+    summation = int(num1 + num2)
+    return summation
 
 
 def subtract(num1, num2):
     """Return the second number subtracted from the first."""
-
+    diff = int(num1 - num2)
+    return diff
 
 def multiply(num1, num2):
     """Multiply the two inputs together."""
