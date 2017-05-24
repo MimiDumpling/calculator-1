@@ -29,8 +29,9 @@ def square(num1):
 
 def cube(num1):
     """Return the cube of the input."""
-
-
+    cubed = int(num1 ** 3)
+    return cubed
+    
 def power(num1, num2):
     """Raise num1 to the power of num and return the value."""
 
