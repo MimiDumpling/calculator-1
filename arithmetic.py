@@ -3,41 +3,40 @@
 
 def add(num1, num2):
     """Return the sum of the two input integers."""
-    summation = int(num1 + num2)
-    return summation
-
+    
+    return int(num1 + num2)
 
 def subtract(num1, num2):
     """Return the second number subtracted from the first."""
-    diff = int(num1 - num2)
-    return diff
+    
+    return int(num1 - num2)
 
 def multiply(num1, num2):
     """Multiply the two inputs together."""
-    product = int(num1 * num2)
-    return product
+   
+    return int(num1 * num2)
 
 def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
-    divided_thing = float(num1/num2)
-    return divided_thing
+   
+    return float(num1/num2)
 
 def square(num1):
     """Return the square of the input."""
-    squared = int(num1 ** 2)
-    return squared
+    
+    return int(num1 ** 2)
 
 def cube(num1):
     """Return the cube of the input."""
-    cubed = int(num1 ** 3)
-    return cubed
+    
+    return int(num1 ** 3)
 
 def power(num1, num2):
-    """Raise num1 to the power of num and return the value."""
-    powered_up = int(num1 ** num2)
-    return powered_up
+    """Raise num1 to the power of num2 and return the value."""
+    
+    return int(num1 ** num2)
 
 def mod(num1, num2):
-    """Return the remainder of num / num2."""
-    remainder = num1 % num2
-    return remainder
+    """Return the remainder of num1 / num2."""
+    
+    return num1 % num2
