@@ -21,10 +21,11 @@ def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
     divided_thing = float(num1/num2)
     return divided_thing
-    
+
 def square(num1):
     """Return the square of the input."""
-
+    squared = int(num1 ** 2)
+    return squared
 
 def cube(num1):
     """Return the cube of the input."""
